@@ -1,0 +1,83 @@
+mate-settings-daemon (1.1.1-1) oneiric; urgency=low
+
+  * New upstream release.
+  * Add mate-setting-daemon-pulse to use pulseaudio.
+    The default package now supports gstreamer/alsa/oss.
+  * Remove replaces fields from debian/control.
+  * Re-added replaces fields in debian/control.
+  * Fix typo in old breaks (was mate-setting-daemon).
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Fri, 27 Jan 2012 14:03:34 -0500
+
+mate-settings-daemon (1.1.0-5) oneiric; urgency=low
+
+  * Merge with https://github.com/benpicco/mate-settings-daemon
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Thu, 19 Jan 2012 22:32:54 -0500
+
+mate-settings-daemon (1.1.0-4) oneiric; urgency=low
+
+  * initial
+
+ -- Matt Rinsch <gfunkmonk@gmail.com>  Sat, 07 Jan 2012 05:13:40 -0500
+
+mate-settings-daemon (1.1.0-4) unstable; urgency=low
+
+  * Add libcanberra-gtk in build-depends.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 21 Dec 2011 16:00:58 +0100
+
+mate-settings-daemon (1.1.0-3) unstable; urgency=low
+
+  * Add more build depends.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 21 Dec 2011 06:41:39 +0100
+
+mate-settings-daemon (1.1.0-2) unstable; urgency=low
+
+  * Enable pulse in debian/rules. This should fix the keybinding issue.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 21 Dec 2011 01:37:38 +0100
+
+mate-settings-daemon (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 10 Dec 2011 18:48:03 +0100
+
+mate-settings-daemon (1.0.0-3) unstable; urgency=low
+
+  * Dropped wrong depends on mate-common.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Wed, 16 Nov 2011 01:52:11 +0100
+
+mate-settings-daemon (1.0.0-2) unstable; urgency=low
+
+  * Fixed debian/ folder.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 05 Nov 2011 18:57:22 +0100
+
+mate-settings-daemon (1.0.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 05 Nov 2011 12:16:12 +0000
+
+mate-settings-daemon (2011.10.27-2) unstable; urgency=low
+
+  * Fixed mateconf schemas.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 28 Oct 2011 15:48:45 +0200
+
+mate-settings-daemon (2011.10.27-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Fri, 28 Oct 2011 04:15:35 +0200
+
+mate-settings-daemon (2011.10.18-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Stefano Karapetsas <stefano@karapetsas.com>  Sat, 22 Oct 2011 01:31:28 +0200
+
